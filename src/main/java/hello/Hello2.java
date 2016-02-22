@@ -16,10 +16,6 @@ public class Hello2 {
 
     private String message;
 
-    public Hello2() {
-        System.out.println("HelloWorld started!");
-    }
-
     public String getMessage() {
         if(messageBean != null){
             message = messageBean.getMessage();
